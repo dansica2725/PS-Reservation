@@ -18,7 +18,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/name"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"/>
 
             <EditText
                 android:id="@+id/editTextName"
@@ -31,7 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/telephone"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"/>
 
             <EditText
                 android:id="@+id/editTextTelephone"
@@ -44,7 +46,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/size"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -71,7 +74,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Day"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"/>
 
             <EditText
                 android:id="@+id/dateEt"
@@ -83,7 +87,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Time"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"/>
 
             <EditText
                 android:id="@+id/timeEt"
