@@ -181,6 +181,8 @@ public class MainActivity extends AppCompatActivity {
 
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
 
+
+
         String date = sharedPreferences.getString("date", "");
         String time = sharedPreferences.getString("time", "");
         String name = sharedPreferences.getString("name", "");

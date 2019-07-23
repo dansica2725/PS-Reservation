@@ -17,29 +17,34 @@
                 android:id="@+id/textViewName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/name" />
+                android:text="@string/name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
             <EditText
                 android:id="@+id/editTextName"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="Enter Name"/>
 
             <TextView
                 android:id="@+id/textViewTelephone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/telephone" />
+                android:text="@string/telephone"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
             <EditText
                 android:id="@+id/editTextTelephone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="Enter Phone Number"/>
 
             <TextView
                 android:id="@+id/textViewSize"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/size" />
+                android:text="@string/size"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -50,7 +55,8 @@
                     android:id="@+id/editTextSize"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:hint="Enter Size"/>
 
                 <CheckBox
                     android:id="@+id/checkBox"
@@ -64,7 +70,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Day"/>
+                android:text="Day"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
             <EditText
                 android:id="@+id/dateEt"
@@ -76,7 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Time"
-                />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
             <EditText
                 android:id="@+id/timeEt"
@@ -87,42 +94,56 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:padding="10dp">
 
                 <Button
                     android:id="@+id/buttonReserve"
-                    android:layout_width="0dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/reserve" />
+
+                    android:text="@string/reserve"
+                    android:background="@drawable/button_design"/>
+
+                <Space
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
 
                 <Button
                     android:id="@+id/buttonReset"
-                    android:layout_width="0dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/reset" />
+
+                    android:text="@string/reset"
+                    android:background="@drawable/button_design"/>
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/saveBtn"
-                    android:layout_width="0dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/save" />
+                    android:text="@string/save"
+                    android:background="@drawable/button_design"/>
+
+                <Space
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content" />
 
                 <Button
                     android:id="@+id/retrieveBtn"
-                    android:layout_width="0dp"
+                    android:layout_width="130dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/retrieve" />
+                    android:text="@string/retrieve"
+                    android:background="@drawable/button_design"/>
 
             </LinearLayout>
         </LinearLayout>
